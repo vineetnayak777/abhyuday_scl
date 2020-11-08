@@ -19,6 +19,37 @@ function myfunction()
       }
   </script>      
 <style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #338bff;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
 body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width input fields */
@@ -144,9 +175,14 @@ span.psw {
 </head>
 
 <body>
-
+<div class="topnav">
+  <a class="active" href="/">Home</a>
+  <a href="/listen">Listen</a>
+  <a href="/blog">Blog</a>
+  <a href="/contact">Contact</a>
+  <a href="/student">Student</a>
+</div>
 <h2>Login Form</h2>
-
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
 <div id="id01" class="modal">
