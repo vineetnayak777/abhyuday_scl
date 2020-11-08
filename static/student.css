@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.con{
+    width:100%;
+    background-color: rgb(172, 34, 10);
+    height:500px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding:180px;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-image: url(image/bg-color.jpg);
+background-size: cover;
+padding-bottom: 100px;
+}
+  
+  /* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 50px 50px 0 0;
+    margin-left: 250px;
+}
+  
+  /* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+  
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+}
+}
+  
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    align-items: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(40, 40, 231);
+  }
+
+  .button1:hover {
+    background-color: rgb(40, 40, 231);
+    color: white;
+  }
+
+  .name{
+      padding: 5%;
+      font-weight: bold;
+  }
+
+  .p{
+      padding:5%;
+  }
+
+  .img{
+      border-radius: 50%;
+  }
