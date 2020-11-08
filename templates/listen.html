@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #338bff;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.title_container{
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+.container {
+  padding: 2px 16px;
+}
+.button2 {background-color: #008CBA; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="/">Home</a>
+    <a href="/listen">Listen</a>
+    <a href="/blog">Blog</a>
+    <a href="/contact">Contact</a>
+    <a href="/student">Student</a>
+  </div>
+<div class="row">
+    <center><p class="title_container">A glimpse of Hindustani Classical Music</p></center>
+  <center>
+  <div class="column" style="background-color:yellow;">
+    <h2>Raag Durga</h2>
+    <div class="card">
+        <iframe width="300" height="300" src="https://www.youtube.com/embed/K7H-ptuxlr8">
+        </iframe>
+        <div class="container">
+          <h4><b>By Pt. Venkatesh Kumar</b></h4>
+        </div>
+    </div>
+  </div>
+  </center>
+  <center>
+  <div class="column" style="background-color:yellow;">
+    <h2>Raag Bhimpalasi</h2>
+    <div class="card">
+        <iframe width="300" height="300" src="https://www.youtube.com/embed/DQN4OzAquVE">
+        </iframe>
+        <div class="container">
+            <h4><b>By Pt. Jayateerth Mevundi</b></h4> 
+        </div>
+    </div>
+  </div>
+</center>
+<center>
+        <div class="column" style="background-color:yellow">
+          <h2>Raag Desh</h2>
+          <div class="card">
+              <iframe width="300" height="300" src="https://www.youtube.com/embed/DVRJEb6iK6k"></iframe>
+              <div class="container">
+                  <h4><b>Ustad Rashid Khan</b></h4> 
+              </div>
+          </div>
+        </div>
+</center>
+</div><br>
+<div class="row">
+  <center>
+  <div class="column" style="background-color:yellow;">
+    <h2>Raag Bhoop</h2>
+    <div class="card">
+        <iframe width="300" height="300" src="https://www.youtube.com/embed/3n3eXeTKMgs">
+        </iframe>
+        <div class="container">
+          <h4><b>By Pt. Rahul Deshpande</b></h4>
+        </div>
+    </div>
+  </div>
+  </center>
+  <center>
+  <div class="column" style="background-color:yellow;">
+    <h2>Raag Bhageshri</h2>
+    <div class="card">
+        <iframe width="300" height="300" src="https://www.youtube.com/embed/9A2i6cVYq7g">
+        </iframe>
+        <div class="container">
+            <h4><b>By Pandit Jasraj</b></h4> 
+        </div>
+    </div>
+  </div>
+</center>
+<center>
+        <div class="column" style="background-color:yellow">
+          <h2>Raag Kafi</h2>
+          <div class="card">
+              <iframe width="300" height="300" src="https://www.youtube.com/embed/ZNxorE2hZn0"></iframe>
+              <div class="container">
+                  <h4><b>By Pt. Ajay Chakraborty</b></h4> 
+              </div>
+          </div>
+        </div>
+</center>
+</div>
+</body>
+</html>
